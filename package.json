@@ -1,15 +1,30 @@
 {
-  "name": "forkify",
+  "name": "starter",
   "version": "1.0.0",
-  "description": "Recipe application",
-  "main": "index.html",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "author": "oybek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oybek03/forkify.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oybek03/forkify/issues"
+  },
+  "homepage": "https://github.com/Oybek03/forkify#readme",
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0"
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "lodash": "^4.17.21",
+    "regenerator-runtime": "^0.13.9"
   }
 }
